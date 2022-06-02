@@ -1,0 +1,45 @@
+.moduleContainer{
+ width: 80vw;
+  max-width: 400px;
+  position: fixed;
+  z-index: 2;
+  top: 40%;
+ left: 40%;
+ background-color: var(--white);
+ padding: 1.5rem;
+ border-radius: 7px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ letter-spacing: var(--spacing);
+ box-shadow: 3px 1px 15px 1px #000000;
+ h4{
+   text-align: center;
+   
+ }
+ button{
+   margin:0.5rem 1.2rem;
+   background-color: transparent;
+   padding: .8rem 1rem;
+   
+ }
+ 
+}
+.confirm{
+  color:var(--bg-primary);
+  border:1px solid var(--bg-primary);
+  &:hover{
+    background: var(--bg-primary-light);
+    color:var(--bg-primary);
+  }
+}
+.cancel{
+  color:var(--red-light);
+  border:1px solid var(--red-light);
+  &:hover{
+    color:var(--red-light);
+    background: var(--red-dark);
+  }
+}
+

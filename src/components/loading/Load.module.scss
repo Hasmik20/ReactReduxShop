@@ -1,0 +1,8 @@
+.container{
+   min-height: calc(100vh - 80px);
+    width: 90vw;
+    margin: 3.5rem auto;
+    padding: 2.5rem 0;
+    max-width: var(--fixed-width);
+    text-align: center;
+}
